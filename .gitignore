@@ -1,0 +1,10 @@
+/.pytest_cache/
+__pycache__/
+/.idea/
+.coverage
+mfc_config_loader.egg-info/
+/src/mlptutils.egg-info/
+/build/
+/tests/configloader/__pycache__/
+/src/configloader/__pycache__/
+README.md

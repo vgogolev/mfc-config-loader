@@ -1,0 +1,18 @@
+# global variables
+global_key: test_vg
+some_other_key: "referencing global ${global_key}"
+
+my_list:
+    - item: 'test1'
+    - item: '${global_key}'
+    - item: 'test 3'
+
+dev_config:
+    last_name: gogolev
+    first_name: vitaliy
+    full_name: ${dev_config.first_name}, ${dev_config.last_name}
+    some_other: '${global_key}'
+    my_list:
+        - item: 'test1'
+        - item: '${global_key}'
+
